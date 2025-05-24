@@ -1,8 +1,6 @@
 name: Check and Upload New Telegram Versions
 
 on:
-  schedule:
-    - cron: '0 8 * * *' # هر روز ساعت 8 صبح UTC اجرا می‌شود
   workflow_dispatch: # امکان اجرای دستی
 
 jobs:
